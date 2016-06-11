@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mh3-DN-bHX">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="Pen" id="C0f-fs-UKm">
+                                        <connections>
+                                            <action selector="PenClick" destination="BYZ-38-t0r" id="mQE-MX-lJT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Line" id="nJr-mt-LCh">
+                                        <connections>
+                                            <action selector="LineClick" destination="BYZ-38-t0r" id="5v8-Nb-C0m"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Circle" id="X0a-WI-flF">
+                                        <connections>
+                                            <action selector="CircleClick" destination="BYZ-38-t0r" id="hmQ-Ob-QVh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Rect" id="5jt-is-X6v">
+                                        <connections>
+                                            <action selector="RectangleClick" destination="BYZ-38-t0r" id="Kgb-Qn-oke"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Erase" id="aIs-No-SAJ">
+                                        <connections>
+                                            <action selector="EraseClick" destination="BYZ-38-t0r" id="Gql-7e-ryn"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="설정" id="jcV-GS-x9H">
+                                        <connections>
+                                            <action selector="SetupClick" destination="BYZ-38-t0r" id="nU1-Ga-ePK"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
