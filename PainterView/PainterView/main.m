@@ -1,9 +1,9 @@
 //
 //  main.m
-//  PainterApp
+//  PainterView
 //
-//  Created by SonGyubin on 2016. 6. 11..
-//  Copyright © 2016년 SonGyubin. All rights reserved.
+//  Created by 소영섭 on 2015. 11. 22..
+//  Copyright © 2015년 소영섭. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
