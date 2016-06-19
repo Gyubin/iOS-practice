@@ -1,9 +1,9 @@
 //
 //  main.m
-//  uMessengerApp
+//  uMessagerApp
 //
-//  Created by SonGyubin on 2016. 6. 17..
-//  Copyright © 2016년 SonGyubin. All rights reserved.
+//  Created by 소영섭 on 2015. 11. 24..
+//  Copyright © 2015년 소영섭. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
